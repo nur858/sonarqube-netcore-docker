@@ -1,0 +1,7 @@
+version '3.4'
+services:
+	Sample.Console.App
+		image:sample-console-app
+		build:
+			context: .
+			dockerfile: Sample.Console.App/Dockerfile
