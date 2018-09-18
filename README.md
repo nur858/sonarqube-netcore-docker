@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Sonarqube, Docker and .Net Core
 
 This repo demonstrates how to configure sonarqube and postgres in docker. It also shows how to write a multi-stage Dockerfile for .net core app that can publish code coverage stats to sonarqube.
 
