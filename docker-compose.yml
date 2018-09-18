@@ -5,7 +5,7 @@ services:
     build:
       context: .
       args:
-        HOST_IP: ${HOST_IP}
+        SONARQUBE_ADDRESS: ${SONARQUBE_ADDRESS}
         PROJECT_VERSION: 1
       dockerfile: Sample.Console.App/Dockerfile 
 
