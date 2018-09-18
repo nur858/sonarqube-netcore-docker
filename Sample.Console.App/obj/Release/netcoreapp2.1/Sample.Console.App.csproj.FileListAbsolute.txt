@@ -1,0 +1,16 @@
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/bin/Release/netcoreapp2.1/Sample.Console.App.deps.json
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/bin/Release/netcoreapp2.1/Sample.Console.App.runtimeconfig.json
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/bin/Release/netcoreapp2.1/Sample.Console.App.runtimeconfig.dev.json
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/bin/Release/netcoreapp2.1/Sample.Console.App.dll
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/bin/Release/netcoreapp2.1/Sample.Console.App.pdb
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/obj/Release/netcoreapp2.1/Sample.Console.App.csprojAssemblyReference.cache
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/obj/Release/netcoreapp2.1/Sample.Console.App.csproj.CoreCompileInputs.cache
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/obj/Release/netcoreapp2.1/Sample.Console.App.AssemblyInfoInputs.cache
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/obj/Release/netcoreapp2.1/Sample.Console.App.AssemblyInfo.cs
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/obj/Release/netcoreapp2.1/Sample.Console.App.dll
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/obj/Release/netcoreapp2.1/Sample.Console.App.pdb
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/app/Sample.Console.App.deps.json
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/app/Sample.Console.App.runtimeconfig.json
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/app/Sample.Console.App.runtimeconfig.dev.json
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/app/Sample.Console.App.dll
+/home/nur/Documents/sonarqube-netcore-docker/Sample.Console.App/app/Sample.Console.App.pdb

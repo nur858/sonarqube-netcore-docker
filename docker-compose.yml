@@ -1,7 +1,11 @@
-version '3.4'
+version: '3.4'
 services:
-	Sample.Console.App
-		image:sample-console-app
-		build:
-			context: .
-			dockerfile: Sample.Console.App/Dockerfile
+  sample-console-app:
+    image: sample-console-app
+    build:
+      context: .
+      args:
+        HOST_IP: ${HOST_IP}
+        PROJECT_VERSION: 1
+      dockerfile: Sample.Console.App/Dockerfile 
+
