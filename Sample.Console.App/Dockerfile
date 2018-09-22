@@ -1,5 +1,4 @@
 FROM microsoft/dotnet:2.1-sdk AS build
-ARG HOST_IP
 ARG PROJECT_VERSION
 ENV DOTNET_CLI_TELEMETRY_OPTOUT = 1
 WORKDIR /src
@@ -24,7 +23,7 @@ WORKDIR /src/Sample.Console.App
 RUN dotnet tool install --global dotnet-sonarscanner
 ENV PATH="${PATH}:/root/.dotnet/tools"
 RUN dotnet sonarscanner begin /k:"sonar-docker-netcore" /v:${PROJECT_VERSION} \
-    /d:sonar.host.url=${SONARQUBE_ADDRESS} \ 
+    /d:sonar.host.url=http://localhost:9000 \ 
 	/d:sonar.cs.opencover.reportsPaths="/src/**/TestResults/opencover.xml" \ 
 	/d:sonar.cs.vstest.reportsPaths="/src/**/TestResults/testresult.xml" \ 
 	/d:sonar.scm.disabled=true /d:sonar.coverage.dtdVerification=true \ 
